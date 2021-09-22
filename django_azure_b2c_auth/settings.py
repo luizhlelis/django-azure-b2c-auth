@@ -122,8 +122,8 @@ B2B_TENANT = "xptoorg"
 authority_template = f"https://{B2B_TENANT}.b2clogin.com/{B2B_TENANT}.onmicrosoft.com/{{user_flow}}"
 
 # In order to communicate with MS
-B2C_YOUR_APP_CLIENT_APPLICATION_ID = "c05d9c78-baab-4ee3-8ea7-b1a4b8074309"
-B2C_YOUR_APP_CLIENT_CREDENTIAL = "BTr7Q~C0FY43iXWgLTJvjxRZPIQmNIZajUKIw"
+B2C_YOUR_APP_CLIENT_APPLICATION_ID = "your-application-or-client-id-goes-here"
+B2C_YOUR_APP_CLIENT_CREDENTIAL = "your-client-secret-goes-here"
 
 # Authorities
 USER_FLOWS_SIGN_UP_SIGN_IN = "B2C_1_sign-in-sign-up"
