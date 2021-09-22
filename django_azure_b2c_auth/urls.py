@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path
 
-from b2c_auth_playground.apps.core import views
-from b2c_auth_playground.apps.core.api import api_views
-from b2c_auth_playground.apps.core.api.v1 import api_views as api_views_v1
+from django_azure_b2c_auth.apps.core import views
+from django_azure_b2c_auth.apps.core.api import api_views
+from django_azure_b2c_auth.apps.core.api.v1 import api_views as api_views_v1
 
 urlpatterns = [
     # Pages

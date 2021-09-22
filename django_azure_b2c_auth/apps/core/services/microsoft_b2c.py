@@ -11,9 +11,9 @@ from django.http import QueryDict
 from msal import ConfidentialClientApplication
 from msal import SerializableTokenCache
 
-from b2c_auth_playground.settings import B2C_AUTHORITY_SIGN_UP_SIGN_IN
-from b2c_auth_playground.settings import B2C_YOUR_APP_CLIENT_APPLICATION_ID
-from b2c_auth_playground.settings import B2C_YOUR_APP_CLIENT_CREDENTIAL
+from django_azure_b2c_auth.settings import B2C_AUTHORITY_SIGN_UP_SIGN_IN
+from django_azure_b2c_auth.settings import B2C_YOUR_APP_CLIENT_APPLICATION_ID
+from django_azure_b2c_auth.settings import B2C_YOUR_APP_CLIENT_CREDENTIAL
 
 
 @dataclass(frozen=True)

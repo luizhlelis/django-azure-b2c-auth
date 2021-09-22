@@ -2,7 +2,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from b2c_auth_playground.support.utils import is_internet_available
+from django_azure_b2c_auth.support.utils import is_internet_available
 
 
 @api_view(["GET"])

@@ -4,10 +4,10 @@ from django.shortcuts import redirect
 from django.shortcuts import render
 from django.urls import reverse
 
-from b2c_auth_playground.apps.core.services.microsoft_b2c import build_auth_code_flow
-from b2c_auth_playground.apps.core.services.microsoft_b2c import build_logout_uri
-from b2c_auth_playground.settings import B2C_AUTHORITY_PROFILE_EDITING
-from b2c_auth_playground.settings import B2C_AUTHORITY_SIGN_UP_SIGN_IN
+from django_azure_b2c_auth.apps.core.services.microsoft_b2c import build_auth_code_flow
+from django_azure_b2c_auth.apps.core.services.microsoft_b2c import build_logout_uri
+from django_azure_b2c_auth.settings import B2C_AUTHORITY_PROFILE_EDITING
+from django_azure_b2c_auth.settings import B2C_AUTHORITY_SIGN_UP_SIGN_IN
 
 
 def index(request):

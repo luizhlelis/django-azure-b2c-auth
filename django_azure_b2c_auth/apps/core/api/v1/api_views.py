@@ -6,9 +6,9 @@ from rest_framework.decorators import api_view
 from rest_framework.request import Request
 from rest_framework.response import Response
 
-from b2c_auth_playground.apps.core.api.api_exception import B2CContractNotRespectedException
-from b2c_auth_playground.apps.core.api.api_exception import ServiceUnavailable
-from b2c_auth_playground.apps.core.services.microsoft_b2c import verify_flow
+from django_azure_b2c_auth.apps.core.api.api_exception import B2CContractNotRespectedException
+from django_azure_b2c_auth.apps.core.api.api_exception import ServiceUnavailable
+from django_azure_b2c_auth.apps.core.services.microsoft_b2c import verify_flow
 
 logger = logging.getLogger(__name__)
 

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from b2c_auth_playground.apps.core.apps import CoreConfig
+from django_azure_b2c_auth.apps.core.apps import CoreConfig
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,7 +40,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "b2c_auth_playground.urls"
+ROOT_URLCONF = "django_azure_b2c_auth.urls"
 
 TEMPLATES = [
     {
@@ -58,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "b2c_auth_playground.wsgi.application"
+WSGI_APPLICATION = "django_azure_b2c_auth.wsgi.application"
 
 
 # Database
