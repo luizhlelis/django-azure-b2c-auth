@@ -125,7 +125,7 @@ authority_template = f"https://{B2C_TENANT}.b2clogin.com/{B2C_TENANT}.onmicrosof
 B2C_YOUR_APP_CLIENT_APPLICATION_ID = "your-application-or-client-id-goes-here"
 B2C_YOUR_APP_CLIENT_CREDENTIAL = "your-client-secret-goes-here"
 
-B2C_SCOPES = ["https://graph.microsoft.com/User.Read.All"]
+B2C_SCOPES = ["https://graph.microsoft.com/openid"]
 
 # Authorities
 USER_FLOWS_SIGN_UP_SIGN_IN = "B2C_1_sign_in_sign_up"
